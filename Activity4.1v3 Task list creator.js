@@ -102,48 +102,4 @@ function addTask(){
     //Add onclick to button
     removalButton.onclick = () => newDiv.parentElement.remove();
     //Functionality for editing tasks
-
-    /*var removalButtonVar = newItem.querySelector(".SubmitRemoval")
-    removalButtonVar.addEventListener("click", alert("Removal button clicked"));*/
-    
 };
-
-/*document.getElementById("TaskListBody").addEventListener("click", function(removeTheTask){
-    if (TaskListBody.classList.contains("SubmitRemoval")){alert("Removal Button Clicked");}
-});*/
-
-/*submitTask.addEventListener("click", waitForAddedTask);
-function waitForAddedTask(){
-    const removeTask = document.querySelector(".SubmitRemoval");
-    removeTask.addEventListener("click", minusTask)
-}*/
-
-/*function minusTask(){
-    this.parentElement.remove();
-}*/
-
-/*//Below code is left over from before removing the general task removal button
-//Create new option for remove item list
-    var newRemoveOption = document.createElement("option");
-    //Create text content for new option
-    var newRemoveOptionText = document.createTextNode(selectedTask);
-    //Add text content to new option
-    newRemoveOption.appendChild(newRemoveOptionText);
-    //Add value attribute to new select option
-    newRemoveOption.setAttribute("value", selectedTask);
-    //Find Select box
-    var removalSelectBox = document.querySelector("select.RemovalSelector");
-    //Add Option to Select
-    removalSelectBox.appendChild(newRemoveOption);
-
-//Removing a task
-const submitRemoval = document.querySelector(".SubmitRemoval");
-submitRemoval.addEventListener("click", removeTask);
-function removeTask(){
-    //Create Variable recording selected task
-    var selectedForRemoval = document.querySelector("Select:nth-of-type(2)");
-    //Find Li item and remove it
-    document.querySelector("li").hasAttribute("value", selectedForRemoval).remove();
-    //Find Select item and remove it
-    document.querySelector("select.RemovalSelector option").remove();
-}*/
