@@ -1,1 +1,1 @@
-An Task List application where a user can type custom tasks to be completed into an input box and submit them to a displayed list. 
+An Task List application where a user can type custom tasks to be completed into an input box and submit them to a displayed list. Once a task is added, the user has the option to mark it as completed with a checkbox, there is an input box to allow them to edit the task name, and a button to remove the task from the list.
