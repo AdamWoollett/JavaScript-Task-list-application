@@ -1,0 +1,46 @@
+li{
+    background-color: whitesmoke;
+    padding:4px;
+    color: black;
+    display: flex;
+    max-width:60%;
+    border: solid 1px black;
+    margin:2px;
+    flex-direction: column;
+}
+li h3{
+    margin:0px;
+}
+li p{
+    margin:0px;
+}
+li div{
+    margin:0px;
+    flex-direction: row;
+}
+li input{
+    margin:0px;
+}
+li button{
+    margin:0px;
+}
+main{
+    background-color: gray;
+    color: white;
+    padding:6px;
+}
+section{
+    background-color: darkcyan;
+    padding:4px;
+    color:white;
+}
+.SubmitButton{
+    background-color: white;
+}
+.TaskListItem{
+    flex-direction:column;
+}
+.SubmitRemoval{
+    margin-top: 8px;
+    max-width:160px;
+}
